@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import firebaseDb from "../firebase";
 import {useHistory, useParams} from "react-router-dom";
 import { isEmpty } from "lodash";
+import { Link } from "react-router-dom";
 
 const Add = () => {
     const values = {
@@ -117,10 +118,11 @@ const Add = () => {
                             </input>
 
                         </div>
-                        
-                        <button type="submit" className="btn mr-3" id="submit" > Submit </button>
-                        
-                        <button className="btn" id="cancle"> Cancel </button>
+                        <Link to="/info">
+                        <button className="btn mr-3" id="cancle"> Cancel </button>
+                        </Link>
+                        <button type="submit" className="btn" id="submit" > Submit </button>
+                    
                     </form>
                 </div>
             </div>

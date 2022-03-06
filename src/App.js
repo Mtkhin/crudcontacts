@@ -4,8 +4,6 @@ import { Switch,Route} from "react-router-dom";
 import Add from "./components/Add";
 import contactsList from "./components/index";
 import View from  "./components/View";
-import Errormsg from  "./components/Errormsg";
-
 
 function App() {
   return (
@@ -16,7 +14,6 @@ function App() {
         <Route exact path = "/add" component={Add} />
         <Route exact path = "/update/:id" component={Add} />
         <Route exact path = "/view/:id" component={View} />
-        <Route path = "*" component={Errormsg} />
       </Switch>
     </div>
   );
