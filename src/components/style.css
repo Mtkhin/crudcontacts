@@ -22,10 +22,22 @@
      background-color: #957DAD;
  }
 
- #submit,#cancle, #goback{
+ #submit, #goback{
      background-color: #957DAD;
      color: white;
  }
+
+
+ #cancle{
+  background-color: white;
+  color: #957DAD;
+  border: 2px solid #957DAD;
+}
+
+#cancle:hover{
+    background-color: #957DAD;
+    color: white;
+}
 
  .trow{
      color: white;

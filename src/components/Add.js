@@ -80,7 +80,7 @@ const Add = () => {
                             <label className="bmd-label-floating">
                                 Name:
                             </label>
-                            <input type="text" className="form-control" value={name} name="name" onChange={handleInputchange}>
+                            <input type="text" className="form-control" value={name} name="name" onChange={handleInputchange} required>
                             </input>
 
                         </div>
@@ -89,7 +89,7 @@ const Add = () => {
                             <label className="bmd-label-floating">
                                 Phone:
                             </label>
-                            <input type="number" className="form-control" value={mobile} name="mobile" onChange={handleInputchange}>
+                            <input type="number" className="form-control" value={mobile} name="mobile" onChange={handleInputchange} required>
                             </input>
 
                         </div>
@@ -118,11 +118,10 @@ const Add = () => {
                             </input>
 
                         </div>
+                        <button type="submit" className="btn mr-3" id="submit" > Submit </button>
                         <Link to="/info">
-                        <button className="btn mr-3" id="cancle"> Cancel </button>
+                        <button className="btn" id="cancle"> Cancel </button>
                         </Link>
-                        <button type="submit" className="btn" id="submit" > Submit </button>
-                    
                     </form>
                 </div>
             </div>
