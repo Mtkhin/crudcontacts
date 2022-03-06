@@ -3,7 +3,6 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .banner{
-    text-align: center;
     margin: auto;
     padding: 15px;
 }
@@ -29,10 +28,10 @@
  }
 
  .header{
-    justify-content: center;
+    justify-content: right;
     display: flex;
-     margin: auto;
      padding-top: 2em;
+     padding-right: 15px;
  }
 
  .card{
