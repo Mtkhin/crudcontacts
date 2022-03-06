@@ -1,0 +1,47 @@
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.banner{
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+ .thead{
+     background-color: #957DAD;
+ }
+
+ #action{
+     color: #957DAD;
+ }
+
+ #add-button{
+     color: white;
+     background-color: #957DAD;
+ }
+ #submit,#cancle, #goback{
+     background-color: #957DAD;
+     color: white;
+ }
+
+ .trow{
+     color: white;
+ }
+
+ .header{
+    justify-content: center;
+    display: flex;
+     margin: auto;
+     padding-top: 2em;
+ }
+
+ .card{
+     text-align: center;
+     box-shadow: 15px 15px 12px grey;
+ }
+
+ .card-header{
+     background-color: #957DAD;
+     font-size: 30px;
+     color: white;
+ }
