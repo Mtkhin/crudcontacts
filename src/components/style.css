@@ -13,11 +13,15 @@
  #action{
      color: #957DAD;
  }
+ #action:hover{
+     color: #e0bbe4;
+ }
 
- #add-button{
+ #header-button{
      color: white;
      background-color: #957DAD;
  }
+
  #submit,#cancle, #goback{
      background-color: #957DAD;
      color: white;
